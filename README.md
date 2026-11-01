@@ -28,7 +28,7 @@ Instead of sending every raw transaction straight to an LLM (which is slow and e
    * **Node 3 (`verdict`):** Routes context to **Llama-3.3-70B** (via Groq API) or a deterministic local fallback engine, enforcing strict **Pydantic** JSON schema validation (`APPROVE_REFUND`, `ESCROW_HOLD`, or `BLOCK_ACCOUNT`).
 
 4. **`app.py` — FastAPI Backend & Interactive Web Console**
-   * Serves REST endpoints (`/api/adjudicate`, `/api/ledger`, `/api/benchmark`) and a 3-column FinTech operator dashboard with 1-click recruiter test presets.
+   * Serves REST endpoints (`/api/adjudicate`, `/api/ledger`, `/api/benchmark`) and a 3-column FinTech operator dashboard with 1-click demo test presets.
 
 5. **`eval_suite.py` — 50-Case Automated Evaluation & Caching Suite**
    * Runs 50 synthetic dispute scenarios against RBI policy rules and uses an $O(1)$ MD5 hash-table cache to eliminate redundant pipeline executions.
