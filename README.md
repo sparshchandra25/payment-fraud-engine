@@ -1,5 +1,10 @@
 # Real-Time Payment Fraud & Autonomous Dispute Resolution Engine
 
+<img width="1280" height="849" alt="PHOTO-2026-11-01-20-07-40" src="https://github.com/user-attachments/assets/c772b107-4c82-4b42-9dd9-f3dc305e9030" />
+<img width="1280" height="849" alt="PHOTO-2026-11-01-20-06-59" src="https://github.com/user-attachments/assets/b7defb5e-eacc-4094-803d-21e272b695cf" />
+<img width="1280" height="849" alt="PHOTO-2026-11-01-20-05-40" src="https://github.com/user-attachments/assets/4f265f25-6c9b-4d64-bf17-a7711b199f1b" />
+<img width="1280" height="849" alt="PHOTO-2026-11-01-20-05-40" src="https://github.com/user-attachments/assets/c5f44160-a997-449b-834b-1885b2c18a0e" />
+
 An end-to-end payment risk and dispute resolution pipeline combining **LightGBM + Isolation Forest**, **Hybrid RAG (BM25 + Dense Vector Search)**, and a **3-Node LangGraph Agent**, served through a **FastAPI** web console.
 
 Built and benchmarked locally on Apple Silicon (MacBook Air M5 Metal GPU).
